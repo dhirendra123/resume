@@ -1,0 +1,171 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300;1,900&family=Poppins:wght@400;800&display=swap');
+
+  body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(233, 220, 196);
+  }
+
+  *{
+    padding: 0PX;
+    margin: 0PX;
+  }
+/* Header styling  */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom:2px solid black;
+    width:100%;
+    /* sticky used to fixed the postion */
+    /* position:sticky; */
+    /* position: fixed;
+    width:100%;
+    top:0px;
+    left:0px; */
+    /* z index used here for no overlapping  */
+    z-index: 1000; 
+   
+}
+
+.title{
+    font-size:20px;
+    margin: 0px;
+    font-weight: 800;
+    padding:3px;
+   
+
+}
+
+.name{
+    border-right: solid 2px #000;
+}
+.resume{
+    Display:Flex;
+    border-left: solid 2px #000;
+    Padding-right:50px;
+
+}
+
+/* styleling of main componenet */
+.Maincomponenet{
+    display: flex;
+    justify-content: center;
+
+}
+
+.leftcomponnent
+{
+    width:60%;
+    border-right: solid 2px red;
+    height:90vh;
+    padding-top:3rem;
+}
+.rightcomponenet
+{
+    width:40%;
+    height:100vh;
+    background-image: url("/myimage.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+.chips-flex
+{
+    display: flex;
+    align-items: cenetr;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-top:10px;
+}
+
+.chips
+{
+    border: 2px solid grey;
+    font-size:20px;
+    font-weight: 600;
+    padding:5px 12px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+
+
+    
+}
+.chips:hover{
+    background-color: black;
+    color: white;
+    border-color: aquamarine;
+    cursor:pointer;
+}
+
+.title:hover{
+    color: brown;
+    transition: all 0.5ms;
+}
+
+.para1{
+    margin-top:5px;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 150;
+    border-bottom: solid 2px black;
+    padding:1rem;
+    padding-top:3rem;
+}
+.education
+{
+    margin-top:5px;
+    padding: 5px;
+    font-size:large;
+    border-bottom: solid 2px black;
+    padding-top:2px;
+}
+
+.list1 ,.unlist{
+    padding-left:30px;
+    padding-top:2px; 
+    font-size: 22px;
+    font-weight: 150;
+}
+
+.workexperience
+{
+    margin-top:5px;
+    padding: 5px;
+    font-size:large;
+    border-bottom: solid 2px black;
+    padding-top:2px;
+}
+
+.socialComponenets
+{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: solid 2px black;
+    Height:100px;
+}
+.socialflex
+{
+    display: flex;
+    justify-content: center;
+    height:30px;
+    width:30px;
+    padding-right: 150px;
+    padding-top:10px;
+
+}
+
+.roundborder
+{
+    border: solid 2px black;
+    border-radius:70%;
+    display:flex;
+    height:40px;
+    width:40px;
+    gap:1.5rem;
+    align-items: center;
+    /* padding-right: 150px; */
+    /* padding-top:10px; */
+
+}
